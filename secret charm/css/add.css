@@ -1,0 +1,122 @@
+body {
+    background-color: #F1F4EC;
+    font-family: times new roman;
+    font-size: 18px;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    flex-direction: column; 
+}
+ 
+.header {
+    text-align: center;
+    margin-bottom: -10px; 
+}
+ 
+.header h2 {
+    color: #CD5C5C;
+    font-size: 24px;
+    margin-bottom: -15px;
+    font-family: 'Times New Roman';
+}
+ 
+.header h1 {
+    color: #7b241c;
+    font-size: 32px;
+    margin-bottom: 20px;
+    font-family: 'Times New Roman';
+}
+ 
+.container {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 500px;
+    text-align: center;
+}
+ 
+.form-group label {
+    color: #7b241c;
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+    font-family: 'Times New Roman';
+ 
+}
+ 
+.form-control {
+    border: 1px solid #E6E6E6;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: white;
+    color: #333;
+    font-size: 16px;
+    width: 100%;
+    margin-bottom: 15px;
+    font-family: 'Times New Roman';
+    font-size: 16px;
+ 
+}
+ 
+.form-control:focus {
+    border-color: #CD5C5C;
+    box-shadow: 0 0 8px rgba(205, 92, 92, 0.8);
+}
+ 
+button[type="submit"] {
+    background-color: #7b241c;
+    border: none;
+    color: #F1F4EC;
+    font-weight: bold;
+    padding: 15px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 30%;
+    font-size: 16px;
+    font-family: Times New Roman;
+ 
+}
+ 
+button[type="submit"]:hover {
+    background-color: #F3CFC6;
+    color: #7b241c;
+}
+ 
+.current-image {
+    width: 100px;
+    height: auto;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: 1px solid #E6E6E6;
+    margin-bottom: 20px;
+ 
+}
+ 
+@media (max-width: 768px) {
+    .container {
+        width: 90%;
+    }
+ 
+    button[type="submit"] {
+        width: 100%;
+    }
+}
+ 
+.back-icon {
+    font-size: 30px;
+    color: #7b241c;
+    text-decoration: none;
+    position: absolute; 
+    top: 20px; 
+    left: 20px;
+}
+ 
+.back-icon:hover {
+    color: #CD5C5C;
+}
+ 

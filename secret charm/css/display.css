@@ -1,0 +1,106 @@
+body {
+    background-color: #F1F4EC; 
+    font-family: Times New Roman;
+    color: #333;
+    font-size: 20px;
+    text-align: center;
+}
+
+button.btn-primary.my-5 {
+    background-color: #F3CFC6;
+    color: #7b241c;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-bottom: 30px;
+    font-family: Times New Roman;
+    font-size: 16px;
+    border: none; 
+    box-shadow: none; 
+    font-weight: bold;
+ 
+}
+ 
+button.btn-primary.my-5:hover {
+    background-color: #7b241c;
+    color:  #F1F4EC;
+}
+ 
+button.btn-primary.my-5 a {
+    text-decoration: none; 
+}
+ 
+button.btn-edit {
+    background-color: #CD5C5C;
+    color: #F1F4EC;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    border: none; 
+    box-shadow: none; 
+}
+ 
+button.btn-edit:hover {
+    background-color: #F3CFC6;
+    color: #7b241c;
+}
+ 
+button.btn-danger {
+    background-color: #7b241c;
+    color: #F1F4EC;
+    font-weight: bold;
+    font-size: 14px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    border: none; 
+    box-shadow: none; 
+}
+ 
+button.btn-danger:hover {
+    background-color: #F3CFC6;
+    color: #7b241c;
+}
+ 
+table.table {
+    width: 1200px; 
+    max-width: 80%; 
+    margin: 20px auto; 
+    border-collapse: collapse;
+    background-color: white;
+    border-radius: 15px; 
+    overflow: hidden; 
+}
+ 
+table.table th {
+    background-color: #7b241c; 
+    color: #ffffff; 
+    padding: 12px;
+    text-align: center;
+    font-family: Times New Roman;
+    font-size: 18px;
+}
+ 
+table.table td, table.table th {
+    border: 1px solid #ddd; 
+    padding: 8px;
+}
+ 
+table.table tr:hover {
+    background-color: #f9f9f9; 
+}
+ 
+table img {
+    width: 85px; 
+    height: 85px; 
+    border-radius: 5px;
+    margin-right: 10px;
+}
+ 
+table .name-column {
+    display: flex;
+    align-items: center;
+}
